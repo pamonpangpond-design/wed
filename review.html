@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>รีวิวเว็บไซต์ | Solar System</title>
+
+    <link rel="stylesheet" href="planet.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        SOLAR<span>SYSTEM</span>
+    </div>
+
+    <div class="nav-menu">
+
+        <a href="index.html">หน้าแรก</a>
+
+        <div class="dropdown">
+
+            <button class="dropbtn">
+                ดาวเคราะห์ ▼
+            </button>
+
+            <div class="dropdown-content">
+                <a href="mercury.html">☿ ดาวพุธ</a>
+                <a href="venus.html">♀ ดาวศุกร์</a>
+                <a href="earth.html">🌎 โลก</a>
+                <a href="mars.html">♂ ดาวอังคาร</a>
+                <a href="jupiter.html">♃ ดาวพฤหัสบดี</a>
+                <a href="saturn.html">♄ ดาวเสาร์</a>
+                <a href="uranus.html">♅ ดาวยูเรนัส</a>
+                <a href="neptune.html">♆ ดาวเนปจูน</a>
+            </div>
+
+        </div>
+
+        <a href="review.html">รีวิว</a>
+
+    </div>
+
+</nav>
+
+
+<main class="review-page">
+
+    <section class="review-container">
+
+        <div class="review-header">
+
+            <p class="section-label">USER REVIEW</p>
+
+            <h1>รีวิวเว็บไซต์</h1>
+
+            <p>
+                แสดงความคิดเห็นเกี่ยวกับเว็บไซต์ระบบสุริยะ
+                และแบ่งปันสิ่งที่คุณได้เรียนรู้
+            </p>
+
+        </div>
+
+
+        <form class="review-form">
+
+            <div class="form-group">
+
+                <label for="name">
+                    ชื่อ
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="กรอกชื่อของคุณ"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="rating">
+                    คะแนน
+                </label>
+
+                <select id="rating" name="rating" required>
+
+                    <option value="">
+                        เลือกคะแนน
+                    </option>
+
+                    <option value="5">
+                        ⭐⭐⭐⭐⭐ 5 คะแนน
+                    </option>
+
+                    <option value="4">
+                        ⭐⭐⭐⭐ 4 คะแนน
+                    </option>
+
+                    <option value="3">
+                        ⭐⭐⭐ 3 คะแนน
+                    </option>
+
+                    <option value="2">
+                        ⭐⭐ 2 คะแนน
+                    </option>
+
+                    <option value="1">
+                        ⭐ 1 คะแนน
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    รีวิว
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="เขียนความคิดเห็นของคุณ..."
+                    required
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit" class="review-submit">
+                ส่งรีวิว 🚀
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+	
+<footer>
+
+    <div class="footer-logo">
+        COSMIC ENCYCLOPEDIA
+    </div>
+
+    <p>
+        สำรวจ เรียนรู้ และค้นพบความมหัศจรรย์ของจักรวาล
+    </p>
+
+    <small>
+        © 2026 Cosmic Encyclopedia
+    </small>
+
+</footer>
+
+</body>
+</html>
